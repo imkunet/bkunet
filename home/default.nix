@@ -11,5 +11,5 @@
     };
   };
 
-  catppucchin.enable = true;
+  catppuccin.enable = true;
 }
