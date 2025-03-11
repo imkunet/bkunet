@@ -4,7 +4,9 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = {
-    homeManagerModules.bkunet = import ./home;
-  };
+  outputs =
+    { ... }:
+    {
+      homeManagerModules.bkunet = import ./home;
+    };
 }
