@@ -1,0 +1,6 @@
+on-unmatched = "debug"
+
+[formatter.nixfmt]
+command = "nixfmt"
+includes = ["*.nix"]
+priority = 1
