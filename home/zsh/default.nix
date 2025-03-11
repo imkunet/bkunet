@@ -18,6 +18,8 @@
       [[ ! -f ${./p10k.zsh} ]] || source ${./p10k.zsh}
     '';
 
+    completionInit = "autoload -U compinit && compinit -i";
+
     autosuggestion = {
       enable = true;
       strategy = [
