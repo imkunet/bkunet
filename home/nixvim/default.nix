@@ -58,6 +58,10 @@
         key = "<leader>b";
         action = "<cmd>lua Snacks.terminal.toggle()<cr>";
       }
+      {
+        key = "<leader>?";
+        action = ''<cmd>lua require("which-key").show({ global = true })<cr>'';
+      }
     ];
 
     globals.mapleader = " ";
